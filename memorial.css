@@ -3,11 +3,12 @@
 .bootstrap html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
 
 .bootstrap body {
     margin: 0
+    overflow: hidden;
 }
 
 .bootstrap article,
@@ -114,7 +115,7 @@
 }
 
 .bootstrap pre {
-    overflow: auto
+    /* overflow: auto; */
 }
 
 .bootstrap code,
@@ -196,7 +197,7 @@
 }
 
 .bootstrap textarea {
-    overflow: auto
+    /* overflow: auto; */
 }
 
 .bootstrap optgroup {
@@ -819,7 +820,7 @@
 
 .bootstrap .pre-scrollable {
     max-height: 340px;
-    overflow-y: scroll
+    /* overflow-y: scroll */
 }
 
 .bootstrap .container {
@@ -1894,7 +1895,7 @@
         width: 100%;
         margin-bottom: 15px;
         overflow-y: hidden;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
+        /* -ms-overflow-style: -ms-autohiding-scrollbar; */
         border: 1px solid #ddd
     }
     .bootstrap .table-responsive>.table {
@@ -4953,7 +4954,7 @@ tbody.collapse.in {
     bottom: 0;
     left: 0;
     z-index: 1050;
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
     outline: 0
 }
 
@@ -5081,7 +5082,7 @@ tbody.collapse.in {
     top: -9999px;
     width: 50px;
     height: 50px;
-    overflow: scroll
+    /* overflow: scroll */
 }
 
 @media(min-width:768px) {
@@ -10088,7 +10089,7 @@ input.button.disabled:hover {
 
 .user_text pre,
 .redactor-editor pre {
-    overflow: auto;
+    /* overflow: auto; */
     padding: 1em;
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -12289,7 +12290,7 @@ body #circle-round-button-wrapper #circle-round-button:active:before {
     box-sizing: border-box;
     margin-bottom: 0;
     padding: 10px 20px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     max-height: 70vh;
     font-size: 15px;
     -moz-border-radius-bottomleft: 10px;
@@ -13158,10 +13159,10 @@ div.dtr-modal div.dtr-modal-display {
     right: 0;
     width: 50%;
     height: 50%;
-    overflow: auto;
+    /* overflow: auto; */
     margin: auto;
     z-index: 102;
-    overflow: auto;
+    /* overflow: auto; */
     background-color: #f5f5f7;
     border: 1px solid #000;
     border-radius: .5em;
@@ -14095,7 +14096,7 @@ div.dtr-modal div.dtr-modal-background {
 }
 
 .redactor-box textarea {
-    overflow: auto;
+    /* overflow: auto; */
     outline: none;
     border: none;
     background-color: #111;
@@ -14155,7 +14156,7 @@ body .redactor-box-fullscreen {
 
 .redactor-editor {
     position: relative;
-    overflow: auto;
+    /* overflow: auto; */
     margin: 0!important;
     padding: 20px;
     outline: none;
@@ -14209,7 +14210,7 @@ body .redactor-box-fullscreen {
 }
 
 .redactor-toolbar.redactor-toolbar-overflow {
-    overflow-y: auto;
+    /* overflow-y: auto; */
     height: 29px;
     white-space: nowrap
 }
@@ -14458,7 +14459,7 @@ body .redactor-box-fullscreen {
     padding: 0;
     min-width: 220px;
     max-height: 254px;
-    overflow: auto;
+    /* overflow: auto; */
     background-color: #fff;
     box-shadow: 0 1px 7px rgba(0, 0, 0, .25);
     font-size: 14px;
@@ -14622,7 +14623,7 @@ body .redactor-box-fullscreen {
     top: 0;
     left: 0;
     margin: auto;
-    overflow: auto;
+    /* overflow: auto; */
     width: 100%;
     height: 100%;
     background-color: #000!important;
@@ -14638,7 +14639,7 @@ body .redactor-box-fullscreen {
     bottom: 0;
     right: 0;
     overflow-x: hidden;
-    overflow-y: auto
+    /* overflow-y: auto */
 }
 
 #redactor-modal {
@@ -14759,7 +14760,7 @@ body .redactor-box-fullscreen {
     padding-left: 0;
     list-style: none;
     max-height: 250px;
-    overflow-x: scroll
+    /* overflow-x: scroll */
 }
 
 #redactor-modal #redactor-modal-list li {
@@ -14989,7 +14990,7 @@ body .redactor-box-fullscreen {
 }
 
 .redactor-editor pre {
-    overflow: auto;
+    /* overflow: auto; */
     padding: 1em;
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -20034,7 +20035,7 @@ body.access-restricted .modal+.modal-backdrop {
     width: auto;
     min-width: 300px;
     margin: 0;
-    overflow-y: auto!important
+    /* overflow-y: auto!important */
 }
 
 .modal.modal-full-white .modal-dialog>.close,
@@ -21086,7 +21087,6 @@ body {
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
-    overflow-x: hidden
 }
 
 @media(min-width:1px) {
@@ -21553,9 +21553,9 @@ body[data-page=memorial-page-about] #main #mobile-inner-pages-header.with-photo+
     top: 0;
     z-index: 9999;
     position: fixed;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     overflow-x: visible;
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
     -moz-transform: translate(-320px, 0);
     -ms-transform: translate(-320px, 0);
     -webkit-transform: translate(-320px, 0);
@@ -24557,7 +24557,7 @@ button.button:hover {
     -ms-text-size-adjust: none;
     -webkit-text-size-adjust: none;
     max-height: 80vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     -moz-border-radius: 8px 8px 0 0;
     -webkit-border-radius: 8px;
     border-radius: 8px 8px 0 0;
@@ -24696,7 +24696,7 @@ button.button:hover {
     background: #fff;
     z-index: 12000;
     padding: 10px 0 20px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     -webkit-tap-highlight-color: transparent;
     -moz-border-radius: 8px 8px 0 0;
     -webkit-border-radius: 8px;
@@ -30766,7 +30766,7 @@ form.premium-contribute .drag-drop-help {
 .bootbox.modal.facebook-photo-downloader .step-photos,
 .bootbox.modal.facebook-photo-downloader .step-save {
     height: 100vh;
-    overflow-y: scroll
+    /* overflow-y: scroll */
 }
 
 .bootbox.modal.facebook-photo-downloader .step-albums ul,
@@ -32378,7 +32378,7 @@ form.premium-contribute .drag-drop-help {
     border-radius: 5px;
     padding: 20px 15px 15px;
     text-align: left;
-    overflow: auto;
+    /* overflow: auto; */
     vertical-align: top
 }
 
@@ -32620,7 +32620,7 @@ form.premium-contribute .drag-drop-help {
     border-radius: 5px;
     padding: 20px 15px 15px;
     text-align: left;
-    overflow: auto;
+    /* overflow: auto; */
     vertical-align: top
 }
 
@@ -34673,7 +34673,7 @@ body[data-page=memorial-page-gallery-edit-photos] #sticky_bar {
     display: block;
     font-size: 14px;
     margin-top: -4px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     font-weight: 400;
     margin-bottom: 7px
 }
@@ -35129,7 +35129,7 @@ body[data-page=memorial-page-gallery-edit-videos] #sticky_bar {
     display: block;
     font-size: 14px;
     margin-top: -4px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     font-weight: 400;
     margin-bottom: 7px
 }
