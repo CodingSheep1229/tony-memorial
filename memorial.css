@@ -27204,7 +27204,7 @@ form.premium-contribute .drag-drop-help {
 }
 
 #page-about>.info .profile {
-    text-align: left;
+    /* text-align: left; */
     vertical-align: middle;
     line-height: 1.5em;
     font-weight: 600;
@@ -28197,9 +28197,6 @@ form.premium-contribute .drag-drop-help {
     margin: -15px 0 5px
 }
 
-#page-tributes.about {
-    display: none
-}
 
 @media(min-width:1140px) {
     #page-tributes.about {
@@ -28207,42 +28204,15 @@ form.premium-contribute .drag-drop-help {
     }
 }
 
-#page-tributes.about .no-tributes {
-    display: none
-}
-
 .section-snippets-wrapper .tributes-section-wrapper {
     display: block
 }
 
-@media(min-width:1140px) {
-    .section-snippets-wrapper .tributes-section-wrapper {
-        display: none
-    }
-}
 
 #new_tribute_form {
     padding: 15px 10px 30px
 }
 
-@media(min-width:1px) {
-    #new_tribute_form {
-        display: none
-    }
-}
-
-@media(min-width:1140px) {
-    #new_tribute_form {
-        display: block
-    }
-}
-
-#new_tribute_form span.form-error {
-    color: red;
-    margin-bottom: 10px;
-    display: inline-block;
-    height: 100%
-}
 
 @media(min-width:1px) {
     #new_tribute_form span.form-error {
