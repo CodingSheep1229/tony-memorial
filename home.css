@@ -396,7 +396,7 @@ body .no-image-converting .error-content {
 
 #header #cover-memorial {
     display: block;
-    background: url(1.jpg) repeat center center #ffeca5;
+    background: url(image/1.jpg) repeat center center #ffeca5;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -405,7 +405,7 @@ body .no-image-converting .error-content {
 
 @media(max-width:1140px) {
     #header #cover-memorial {
-        background: url(1.jpg) repeat center center #ffeca5;
+        background: url(image/1.jpg) repeat center center #ffeca5;
         -moz-background-size: cover;
         -o-background-size: cover;
         -webkit-background-size: cover;
