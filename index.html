@@ -8,6 +8,12 @@
     <meta charset="utf-8">
     <title>鄭英傑(1964 - 2020) 追憶</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="dist/css/material-photo-gallery.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="memorial.css" type="text/css" media="all" />
@@ -157,9 +163,40 @@
             </section>
         </section>
     </div>
-<span id="btn-text"></span>
-</button>
+    <div class="m-p-g">
+        <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+            <img src="gallery/small/1.jpg" data-full="gallery/big/1.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/2.jpg" data-full="gallery/big/2.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/3.jpg" data-full="gallery/big/3.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/4.jpg" data-full="gallery/big/4.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/5.jpg" data-full="gallery/big/5.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/6.jpg" data-full="gallery/big/6.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/7.jpg" data-full="gallery/big/7.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/8.jpg" data-full="gallery/big/8.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/9.jpg" data-full="gallery/big/9.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/10.jpg" data-full="gallery/big/10.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/11.jpg" data-full="gallery/big/11.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/12.jpg" data-full="gallery/big/12.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/13.jpg" data-full="gallery/big/13.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/14.jpg" data-full="gallery/big/14.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/15.jpg" data-full="gallery/big/15.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/16.jpg" data-full="gallery/big/16.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/17.jpg" data-full="gallery/big/17.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/18.jpg" data-full="gallery/big/18.jpg" class="m-p-g__thumbs-img" />
+            <img src="gallery/small/19.jpg" data-full="gallery/big/19.jpg" class="m-p-g__thumbs-img" />
+        </div>
+
+        <div class="m-p-g__fullscreen"></div>
     </div>
+
+    <script src="dist/js/material-photo-gallery.js"></script>
+    <script>
+        var elem = document.querySelector('.m-p-g');
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var gallery = new MaterialPhotoGallery(elem);
+        });
+    </script>
 </body>
 
 </html>
